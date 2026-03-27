@@ -1025,7 +1025,7 @@
   <!-- NAV -->
   <header class="header">
     <nav class="nav container">
-      <a href="#" class="nav-logo">BAM</a>
+      <a href="#" class="nav-logo"><img src="logo.webp" alt="Coach Foundation" style="height: 36px; width: auto;"></a>
       <a href="#booking" class="nav-cta">Book Your Call</a>
     </nav>
   </header>
@@ -1059,10 +1059,9 @@
       <h2>Here's Exactly What Happens When You Get In</h2>
       <hr class="section-divider">
 
-      <!-- VIDEO PLACEHOLDER -->
-      <div class="video-wrapper">
-        <div class="play-btn"></div>
-        <span class="video-label">Offer breakdown &mdash; full walkthrough</span>
+      <!-- PITCH VIDEO -->
+      <div class="video-wrapper" style="padding-bottom: 64.8%;">
+        <iframe src="https://player.vimeo.com/video/1177605136?h=2a9084e839&badge=0&autopause=0&player_id=0&app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Pitch for BAM"></iframe>
       </div>
 
       <ul class="offer-list">
@@ -1095,7 +1094,7 @@
       <div class="testimonials-grid">
         <div class="testimonial-card">
           <div class="testimonial-video">
-            <div class="play-btn"></div>
+            <iframe src="https://player.vimeo.com/video/1177578344?h=25ffa84566&badge=0&autopause=0&player_id=0&app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Kaley"></iframe>
           </div>
           <div class="testimonial-info">
             <h4>Kaylee Zaytuni</h4>
@@ -1105,7 +1104,7 @@
 
         <div class="testimonial-card">
           <div class="testimonial-video">
-            <div class="play-btn"></div>
+            <iframe src="https://player.vimeo.com/video/1177580555?h=8b7107bedc&badge=0&autopause=0&player_id=0&app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Mark"></iframe>
           </div>
           <div class="testimonial-info">
             <h4>Mark Felsted</h4>
@@ -1115,7 +1114,7 @@
 
         <div class="testimonial-card">
           <div class="testimonial-video">
-            <div class="play-btn"></div>
+            <iframe src="https://player.vimeo.com/video/1177579508?h=e2532625af&badge=0&autopause=0&player_id=0&app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Michael"></iframe>
           </div>
           <div class="testimonial-info">
             <h4>Michael</h4>
@@ -1125,17 +1124,7 @@
 
         <div class="testimonial-card">
           <div class="testimonial-video">
-            <div class="play-btn"></div>
-          </div>
-          <div class="testimonial-info">
-            <h4>Corinne Steiner</h4>
-            <p>From a standing start to $23K/month.</p>
-          </div>
-        </div>
-
-        <div class="testimonial-card">
-          <div class="testimonial-video">
-            <div class="play-btn"></div>
+            <iframe src="https://player.vimeo.com/video/1024743325?h=e4d0513f6d&badge=0&autopause=0&player_id=0&app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Janet"></iframe>
           </div>
           <div class="testimonial-info">
             <h4>Janet Patty</h4>
@@ -1145,11 +1134,11 @@
 
         <div class="testimonial-card">
           <div class="testimonial-video">
-            <div class="play-btn"></div>
+            <iframe src="https://player.vimeo.com/video/1177578964?h=fed75658ad&badge=0&autopause=0&player_id=0&app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ananta"></iframe>
           </div>
           <div class="testimonial-info">
-            <h4>TBD</h4>
-            <p>Sixth testimonial placeholder.</p>
+            <h4>Ananta</h4>
+            <p>Grew to 100K Instagram followers and now generates $25K/month.</p>
           </div>
         </div>
       </div>
@@ -1195,9 +1184,10 @@
       <hr class="section-divider">
       <p>Pick a date and time below. George has been with us for 7 years &mdash; he'll walk you through everything and answer any questions you have.</p>
 
-      <!-- REPLACE THIS DIV WITH YOUR ONCEHUB EMBED CODE -->
-      <div class="booking-embed-wrapper">
-        <span>[ OnceHub scheduling widget goes here ]</span>
+      <!-- OnceHub Scheduling Widget -->
+      <div class="booking-embed-wrapper" style="display:block; padding: 1.5rem;">
+        <div id="SOIDIV_imp-session-jorge" data-so-page="imp-session-jorge" data-height="550" data-style="border: 1px solid #d8d8d8; min-width: 290px; max-width: 900px;" data-psz="00"></div>
+        <script type="text/javascript" src="https://cdn.oncehub.com/mergedjs/so.js"></script>
       </div>
     </div>
   </section>
@@ -1227,6 +1217,7 @@
     <a href="#booking" class="btn">Book Your Call</a>
   </div>
 
+  <script src="https://player.vimeo.com/api/player.js"></script>
   <script>
     // Smooth scroll with nav offset
     document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
